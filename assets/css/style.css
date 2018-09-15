@@ -1,0 +1,385 @@
+body {
+    background-image: url("../images/concrete_seamless.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.main {
+    position: relative;
+}
+
+
+#aboutMe,
+#portfolio,
+#contact {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 3px;
+    position: absolute; 
+    top: 130px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 960px;
+    padding: 20px;
+
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    margin-top: 0;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+footer {
+    background-color: #666666;
+    color: #ffffff;
+    border-color: #4aaaa5;
+    border-style: solid;
+    border-width: 5px 0 0 0;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 300px;
+    height: 80px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    position: absolute;
+    bottom: 0; 
+    /* left: 355px; */
+    left: 20%;
+
+}
+
+nav {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    margin: 0;
+    padding: 10px;
+    bottom: 0;
+    /* right: 355px; */
+    left: 60%;
+}
+
+nav a {
+    color: #cccccc;
+    padding: 10px;
+}
+
+nav a:nth-child(1),
+nav a:nth-child(2) {
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 0 3px 0 0;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#aboutMeTitle,
+#portfolioTitle,
+#contactTitle {
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    border-color: #dddddd;
+}
+
+#bio {
+    padding-top: 20px;
+}
+
+#Melissa {
+    height: 200px;
+    width: 173px;
+    margin-right: 20px;
+    float: left;
+}
+
+#bio p {
+    margin: 0;
+}
+
+.imageDiv {
+    position: relative;
+}
+#image1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 252px;
+    height: 20px;
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+#image2 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 252px;
+    height: 20px;
+    position: absolute;
+    top: 230px;
+    left: 362px;
+    text-align: center;
+    padding: 10px;
+}
+
+#image3 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 252px;
+    height: 20px;
+    position: absolute;
+    top: 545px;
+    left: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+#image4 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 252px;
+    height: 20px;
+    position: absolute;
+    top: 545px;
+    left: 362px;
+    text-align: center;
+    padding: 10px;
+}
+
+.placeholderImg {
+    margin: 30px;
+    float: left;
+}
+
+form {
+    padding: 20px;
+    color: #989696;
+}
+
+.formBox,
+.messageBox {
+    margin: 5px 0;
+    width: 100%;
+}
+
+.messageBox {
+    height: 200px;
+}
+
+.submitBox {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 5px 10px;
+}
+
+@media screen and (max-width: 980px) {
+
+    #aboutMe,
+    #portfolio,
+    #contact {
+        
+        left: 30px;
+        right: 45px; 
+        width: auto;
+    }
+
+    h1 {
+        width: 300px;
+        left: 35px;
+    }
+
+    nav {
+        width: 300px;
+        right: 0px;
+        left: auto;
+    }
+
+    .placeholderImg {
+        margin: 20px;
+    }
+
+    #image1 {
+        top: 210px;
+        left: 20px;
+    }
+
+    #image2 {
+        top: 210px;
+        left: 332px;
+    }
+
+    #image3 {
+        top: 505px;
+        left: 20px;
+    }
+
+    #image4 {
+        top: 505px;
+        left: 332px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    /*body {
+        background-image: url(../images/cat.jpg)
+    }*/
+
+    #aboutMe,
+    #portfolio,
+    #contact {
+        
+        left: 10px;
+        right: 10px; 
+        width: auto;
+        margin-bottom: 80px
+    }
+
+    h1 {
+        width: 255px;
+        left: 20px;
+    }
+
+    nav {
+        width: 280px;
+        right: 0px;
+        left: auto;
+    }
+
+    .placeholderImg {
+        width: 231px;
+        height: 217px;
+    }
+
+    #image1 {
+        top: 180px;
+        left: 20px;
+        width: 211px;
+    }
+
+    #image2 {
+        top: 180px;
+        left: 291px;
+        width: 211px;
+    }
+
+    #image3 {
+        top: 435px;
+        left: 20px;
+        width: 211px;
+    }
+
+    #image4 {
+        top: 435px;
+        left: 291px;
+        width: 211px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 640px) {
+    /*body {
+        background-image: url(../images/nature2.jpg)
+     } */
+
+    header {
+        height: 130px;
+        position: static;
+        margin-top: -10px;
+        padding: 0px;
+
+    }
+
+    h1 {
+        width: 100%;
+        height: 40px;
+        margin: 0;
+        position: static;
+        font-size: 25px;
+        padding-bottom: 35px;
+        padding-top: 5px;
+    }
+
+
+    nav {
+        position: static;
+        width: 100%;
+        margin: 0;
+        padding-top: 20px;
+        text-align: center;
+        
+    }
+
+    #aboutMe,
+    #portfolio,
+    #contact {
+        top: 150px;
+
+    }
+
+    #Melissa {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .placeholderImg {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #image1,
+    #image2,
+    #image3,
+    #image4 {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        top: -90px;
+        left: 0px;
+    }
+
+
+
+
+}
